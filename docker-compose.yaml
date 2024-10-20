@@ -1,4 +1,5 @@
 version: "3.10"
+
 services:
   db:
     image: postgres:14.1-alpine
@@ -9,3 +10,19 @@ services:
       - POSTGRES_DB=energy
     ports:
       - "5432:5432"
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=energy
+      - POSTGRES_HOST=db
+      - POSTGRES_PORT=5432
