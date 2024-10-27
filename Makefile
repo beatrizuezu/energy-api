@@ -5,6 +5,9 @@ clean:
 	@find . -iname '*.swp' -delete
 	@find . -iname '__pycache__' -delete
 
+setup:
+	rye sync
+
 
 run:
 	python manage.py runserver
@@ -14,3 +17,12 @@ makemigrations:
 
 migrate:
 	python manage.py migrate
+
+
+loaddata:
+	python manage.py loaddata measurement_devices.json
+	python manage.py loaddata measurements.json
+
+
+compose:
+	docker-compose up
