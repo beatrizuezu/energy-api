@@ -1,0 +1,203 @@
+
+[
+    {
+        "model": "devices.measurement",
+        "pk": 1,
+        "fields": {
+            "device": 1,
+            "power_w": 340,
+            "duration": 520,
+            "created_at": "2024-01-01T08:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 2,
+        "fields": {
+            "device": 1,
+            "power_w": 750,
+            "duration": 430,
+            "created_at": "2024-01-01T20:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 3,
+        "fields": {
+            "device": 1,
+            "power_w": 620,
+            "duration": 220,
+            "created_at": "2024-01-02T08:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 4,
+        "fields": {
+            "device": 1,
+            "power_w": 480,
+            "duration": 390,
+            "created_at": "2024-01-02T20:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 5,
+        "fields": {
+            "device": 2,
+            "power_w": 910,
+            "duration": 680,
+            "created_at": "2024-02-01T09:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 6,
+        "fields": {
+            "device": 2,
+            "power_w": 530,
+            "duration": 240,
+            "created_at": "2024-02-01T21:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 7,
+        "fields": {
+            "device": 2,
+            "power_w": 310,
+            "duration": 460,
+            "created_at": "2024-02-02T09:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 8,
+        "fields": {
+            "device": 2,
+            "power_w": 780,
+            "duration": 850,
+            "created_at": "2024-02-02T21:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 9,
+        "fields": {
+            "device": 3,
+            "power_w": 590,
+            "duration": 370,
+            "created_at": "2024-03-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 10,
+        "fields": {
+            "device": 3,
+            "power_w": 470,
+            "duration": 990,
+            "created_at": "2024-03-01T22:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 11,
+        "fields": {
+            "device": 3,
+            "power_w": 720,
+            "duration": 610,
+            "created_at": "2024-03-02T10:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 12,
+        "fields": {
+            "device": 3,
+            "power_w": 830,
+            "duration": 930,
+            "created_at": "2024-03-02T22:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 13,
+        "fields": {
+            "device": 1,
+            "power_w": 560,
+            "duration": 450,
+            "created_at": "2024-04-01T08:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 14,
+        "fields": {
+            "device": 1,
+            "power_w": 490,
+            "duration": 640,
+            "created_at": "2024-04-01T20:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 15,
+        "fields": {
+            "device": 2,
+            "power_w": 880,
+            "duration": 300,
+            "created_at": "2024-05-01T09:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 16,
+        "fields": {
+            "device": 2,
+            "power_w": 450,
+            "duration": 580,
+            "created_at": "2024-05-01T21:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 17,
+        "fields": {
+            "device": 3,
+            "power_w": 640,
+            "duration": 320,
+            "created_at": "2024-06-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 18,
+        "fields": {
+            "device": 3,
+            "power_w": 390,
+            "duration": 780,
+            "created_at": "2024-06-01T22:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 19,
+        "fields": {
+            "device": 1,
+            "power_w": 850,
+            "duration": 600,
+            "created_at": "2024-06-02T08:00:00Z"
+        }
+    },
+    {
+        "model": "devices.measurement",
+        "pk": 20,
+        "fields": {
+            "device": 1,
+            "power_w": 710,
+            "duration": 700,
+            "created_at": "2024-06-02T20:00:00Z"
+        }
+    }
+]
