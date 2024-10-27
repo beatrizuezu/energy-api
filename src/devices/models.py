@@ -16,6 +16,7 @@ class Measurement(models.Model):
     device = models.ForeignKey(MeasurementDevice, on_delete=models.CASCADE)
     power_w = models.PositiveIntegerField(help_text='Power in Watts (W)')
     duration = models.PositiveIntegerField(help_text='Duration of measurement in minutes')
+    created_at = models.DateTimeField()
 
     @property
     def energy_wh(self):
