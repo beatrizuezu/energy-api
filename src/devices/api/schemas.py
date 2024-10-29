@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date
 
 from ninja import ModelSchema, Schema
 
@@ -20,3 +20,7 @@ class MeasurementResponse(ModelSchema):
         model = Measurement
         fields = ['device', 'power_w', 'duration', 'created_at']
 
+
+class MetricResponse(Schema):
+    month: date
+    total_consumption: float
