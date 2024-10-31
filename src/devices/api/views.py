@@ -21,11 +21,11 @@ def create_measurement_device(request, data: MeasurementDeviceRequest):
 def list_measurement_devices(request):
     return MeasurementDevice.objects.all()
 
-@api.get('measurements/', response=list[MeasurementResponse])
+@api.get('measurements', response=list[MeasurementResponse])
 def retrieve_measurement_device(request, measurement_device_id: int = Query(...)):
     return Measurement.objects.filter(device=measurement_device_id)
 
-@api.get('metrics/', response=list[MetricResponse])
+@api.get('metrics', response=list[MetricResponse])
 def retrieve_metrics(request, measurement_device_id: int = Query(...)):
     energy_kwh_expr = ExpressionWrapper(
         F("power_w") * F("duration") / (60 * 1000), output_field=FloatField()
