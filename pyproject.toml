@@ -18,6 +18,7 @@ build-backend = "hatchling.build"
 [tool.rye]
 managed = true
 dev-dependencies = [
+  "psycopg2-binary==2.9.9",
   "ruff>=0.5.6",
   "pre-commit>=3.8.0",
   "pdbr>=0.8.8",
@@ -65,3 +66,6 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/energy_service"]
+
+[tool.poetry.dependencies]
+psycopg2-binary = "^2.9.9"
